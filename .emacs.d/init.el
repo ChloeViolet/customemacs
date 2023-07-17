@@ -13,7 +13,6 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
 (load-theme 'monokai t)
-(global-set-key (kbd "C-x <f3>") (lambda() (interactive)(find-file "/ssh:ckell811@acad.kutztown.edu:Programs")))
 (setq column-number-mode t)
 (global-set-key (kbd "C-M-h") 'backward-kill-word)
 
