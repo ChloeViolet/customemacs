@@ -8,7 +8,7 @@
 (menu-bar-mode 0)
 (global-linum-mode 1)
 (setq linum-format "%d ")
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/")
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
